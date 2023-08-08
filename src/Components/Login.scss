@@ -20,14 +20,13 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  height: 80vh;
+  height: 69vh;
   width: 80vw;
 }
-
+#img{
+    width: 150px;
+}
 .logo {
-  background-image: url("../Untitled design (4).png");
-  background-size: cover;
-  background-position: center;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -38,14 +37,20 @@
 }
 
 .details {
-  
+  justify-content: center;
   flex: 1;
   padding-left: 20px;
+  height: auto;
+  border: 1px solid black;
+}
+img{
+    width: 150px;
 }
 
 #forgot {
   color: grey;
   margin-bottom: 0%;
+  text-decoration: none;
 }
 
 #signed {
@@ -98,7 +103,7 @@ input:focus {
 
 button {
   padding: 10px 20px;
-  width: 75%;
+  width: 70%;
   background-color: #865fc6;
   color: #fff;
   border: none;
@@ -146,7 +151,9 @@ button:hover {
       flex-direction: column; 
     }
     .logo {
-      height: 150px; 
+      width: 15%;
+      transform: scale(.5); 
+       
       border-right: none;
     }
     .details {
@@ -155,6 +162,8 @@ button:hover {
     .heading {
       margin-left: auto;
       margin-right: auto;
+      font-size: 1rem;
+      width: 15rem;
     }
     .input-container {
       width: 100%; 
@@ -173,7 +182,7 @@ button:hover {
       width: 90vw; 
     }
     .logo {
-      height: 120px; 
+      width: 80px; 
     }
     .heading {
       font-size: 16px; 
@@ -186,7 +195,7 @@ button:hover {
       width: 70vw; 
     }
     .logo {
-      height: 100px; 
+      transform: scale(1.6); 
     }
     .heading {
       font-size: 18px; 

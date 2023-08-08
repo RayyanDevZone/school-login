@@ -1,15 +1,17 @@
 import React from 'react';
 import { FaUser, FaLock } from 'react-icons/fa';
-import './Login.scss';
+import './Login.css';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
     <div className='background'>
       <div className='box'>
-        <div className='logo'></div>
+        {/* <div className='logo'></div> */}
+        <img id='img' src={require("../Images/logo.png")} alt=''/>
         <div className='details'>
-        <h1 className="heading">Login as an Admin User</h1>
-          <form>
+        <h1 className="heading"> <span className='header_top'></span> Login as an Admin User</h1>
+          <form >
             <div className="input-container">
               <input
                 type='email'
@@ -35,7 +37,9 @@ const Login = () => {
               </span>
             </div>
             <button type='submit'>LOGIN</button>
-            <p id='forgot'>Forgot your password?</p>
+            <Link to='/forgotPassword' id='forgot'>
+            Forgot your password?
+          </Link>
             <p id='signed'>Get help Signing in.</p>
             <p id='terms'>Terms of use. Privacy policy.</p>
           </form>
