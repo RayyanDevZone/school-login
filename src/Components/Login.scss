@@ -139,3 +139,58 @@ button:hover {
   color: #ccc;
   font-size: 17x;
 }
+
+
+@media (max-width: 768px) {
+    .box {
+      flex-direction: column; 
+    }
+    .logo {
+      height: 150px; 
+      border-right: none;
+    }
+    .details {
+      padding-left: 0; 
+    }
+    .heading {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .input-container {
+      width: 100%; 
+    }
+    .icon {
+      font-size: 14px;
+    }
+  }
+  
+ 
+  @media (max-width: 480px) {
+    .background {
+      padding: 20px; 
+    }
+    .box {
+      width: 90vw; 
+    }
+    .logo {
+      height: 120px; 
+    }
+    .heading {
+      font-size: 16px; 
+      margin-top: 10%; 
+      border-top-width: 2px; 
+    }
+  }
+  @media (max-width: 900px) {
+    .box {
+      width: 70vw; 
+    }
+    .logo {
+      height: 100px; 
+    }
+    .heading {
+      font-size: 18px; 
+      margin-top: 15%; 
+      border-top-width: 4px; 
+    }
+  }
