@@ -36,12 +36,12 @@ const Login = () => {
                 <FaLock />
               </span>
             </div>
-            <button type='submit'>LOGIN</button>
+            <button id='btn' type='submit'>LOGIN</button>
             <Link to='/forgotPassword' id='forgot'>
             Forgot your password?
           </Link>
             <p id='signed'>Get help Signing in.</p>
-            <p id='terms'>Terms of use. Privacy policy.</p>
+            <Link id='terms' to='/terms'>Terms of use. Privacy policy.</Link>
           </form>
         </div>
       </div>

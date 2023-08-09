@@ -1,47 +1,58 @@
-
 .background {
-    background-image: url("../Pink Red Modern Night City Desktop Wallpaper.png");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .box {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    height: 69vh;
-    width: 80vw;
-  }
-  
-  .forgot-content {
-    
+  background-image: url("../Pink Red Modern Night City Desktop Wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  height: 69vh;
+  width: 80vw;
+}
+
+.forgot-content {
+  border: 1px solid black;
   height: 100%;
   width: 100%;
-    padding-left: 20px;
-  }
-  
-  .forgot-content h2 {
-    font-size: 24px;
-    color: #865fc6;
-  }
-  
-.btn{
-    width: 50%;
-    text-align:center ;
-    background-color: #865fc6;
-    color: white;
-    border-radius: 25px;
-    margin: 15px;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  padding-left: 20px;
 }
-  #verify{
-    color: #865fc6;
-    font-size: large;
-    font-weight: 900;
-  }
+
+.forgot-content h2 {
+  font-size: 24px;
+  color: #865fc6;
+}
+
+.btn {
+  width: 40%;
+  text-align: center;
+  background-color: #865fc6;
+  color: white;
+  border-radius: 25px;
+  margin: 15px;
+}
+#verify {
+  color: #865fc6;
+  font-size: large;
+  font-weight: 900;
+}
+#back {
+  width: 5%;
+  text-decoration: none;
+  color: #865fc6;
+  border-radius: 25px;
+  border:1px solid #865fc6;
+  background-color: white;
+}
